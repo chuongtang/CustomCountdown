@@ -5,9 +5,14 @@ The cool thing about this project is also that we are storing our countdown info
 
 This site is also mobile, responsive as well.
 
+
+Credit to following great resources:
 https://pixabay.com/
 https://www.youcompress.com/ (to reduce the video size)
 Google font
+
+
+New cool things that I learnt
 
 created animatin with@keyframes
 preventDefault()Event Method
