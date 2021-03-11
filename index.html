@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Countdown</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#dde6ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h3> Built by <img src="FaviconCLear.png" style= 'max-height: inherit;' id='FaviconCLear' alt="">, a rookie Developer</h3>
+
+    <!-- Video background -->
+    <video src="time.mp4" class="video-background"loop muted autoplay title="created by TLC"></video>
+    <div class="video-ovelay"></div>
+    <!-- Container -->
+    <div class="container">
+        <!-- Input -->
+        <div class="input-container" id="input-container">
+            <h1>Create a custom Countdown!</h1>
+            <form action="" class="form" id="countdownForm">
+                <label for="title">Title</label>
+                <input type="text" id="title" placeholder="What are you counting down to?">
+                <label for="date-picker">Select a date</label>
+                <input type="date" id="date-picker">
+                <button type="submit">Set Countdown</button>
+            </form>
+        </div>
+        <!-- Countdown -->
+        <div class="countdown" id="countdown" hidden>
+            <h1 id="countdown-title"></h1>
+            <ul>
+                <li><span></span>Days</li>
+                <li><span></span>Hours</li>
+                <li><span></span>Minutes</li>
+                <li><span></span>Seconds</li>
+            </ul>
+            <button id="countdown-button">Reset</button>
+        </div>
+        <!-- Complete -->
+        <div class="complete" id="complete" hidden>
+            <h1 class="complete-title">Coundown Complete!</h1>
+            <h1 id="complete-info"></h1>
+            <button id="complete-button">New countdown</button>
+        </div>
+        
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
