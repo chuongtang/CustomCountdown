@@ -13,7 +13,7 @@ https://www.youcompress.com/ (*to reduce the video size*)
 Google font
 
 
-** New cool things that I learned 👍**
+**New cool things that I learned 👍**
 
 1. Creating animatin with@keyframes {..}
 2. *preventDefault()Event* Method
